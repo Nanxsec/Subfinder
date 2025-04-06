@@ -19,6 +19,7 @@ somente os subdomínios ativos!<br><br>
      git clone https://github.com/Nanxsec/Subfinder
      cd Subfinder
      pip install -r requirements.txt
+     python3 sub.py --help
 
 <hr>
 
