@@ -21,6 +21,9 @@ somente os subdomínios ativos!<br><br>
      pip install -r requirements.txt
      python3 sub.py --help
 
+Caso der erro com: pip install -r requirements.txt, tente usar:
+pip install -r requirements.txt --break-system-packages
+
 <hr>
 
 # Saída:
