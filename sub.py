@@ -99,8 +99,11 @@ async def verificar_todos(subdominios: list) -> list:
             ativo = await resultado
             if ativo:
                 try:
-                  print("[{}] \033[1;32m[*] Subdomínio ativo\033[m: \033[1m{}\033[m".format(datetime.datetime.now().strftime("%H:%M:%S"),ativo))
-                  ativos.append(ativo)
+                  if ativo.startswith("*"):
+                    pass
+                  else:
+                    print("[{}] \033[1;32m[*] Subdomínio ativo\033[m: \033[1m{}\033[m".format(datetime.datetime.now().strftime("%H:%M:%S"),ativo))
+                    ativos.append(ativo)
                 except KeyboardInterrupt:
                   raise SystemExit
     return ativos
