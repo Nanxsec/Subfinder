@@ -13,7 +13,7 @@ from pathlib import Path
 from fake_useragent import UserAgent
 
 activate = sys.argv
-USER_AGENT = UserAgent(platforms="mobile",safe_attrs=('__injections__',)).random
+USER_AGENT = UserAgent(platforms="mobile",min_version=120.0,safe_attrs=('__injections__',)).random
 HEADERS = {"User-Agent": "{}".format(USER_AGENT)}
 PORTS = [80, 443, 8080, 8443, 8000, 3000]
 
