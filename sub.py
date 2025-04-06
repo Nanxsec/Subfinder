@@ -1,3 +1,7 @@
+#/usr/bin/python
+# Script para buscas de subdomínios utilizando o crt.sh
+# A saída do script é limpa, ele somente mostra as urls que estão ativas!
+
 import os
 import sys
 import asyncio
