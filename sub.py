@@ -104,6 +104,8 @@ async def check_alive(subdomains, domain):
                             if resp.status == 200:
                                 if not sub.startswith("*"):
                                     now = datetime.datetime.now().strftime("%H:%M:%S")
+                                    if sub == "Netflix.com":
+                                      pass
                                     print(f"[{now}] \033[1;32m[*] Subdomínio ativo\033[m: \033[1m{sub}\033[m")
                                     active.append(url)
                                     return
