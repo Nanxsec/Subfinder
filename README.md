@@ -9,7 +9,6 @@
 Ferramenta automatizada para buscas de subdomínios. Realiza as buscas e retorna apenas os ativos!<br>
 Faz a busca utilizando o crt.sh e retorna todos os subdomínios, logo após faz um filtro e mostra<br>
 somente os subdomínios ativos!<br><br>
-
 <hr>
 
 ![img nano](https://github.com/user-attachments/assets/588e3d25-afdb-4d86-93e8-7845f5740d2d)
